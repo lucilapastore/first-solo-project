@@ -70,9 +70,16 @@ li {
 }
 /* main */
 
-main {
-	background-image: url("");
+.full {
+	position: relative;
+	height: 540px;
+	width: 100%;
+	background: url("url(https://web.archive.org/web/20140301004301im_/http://images.apple.com/global/elements/blank.gif)") bottom no-repeat;
+	background-size: cover;
+	border: #fff 2px solid;
+	border-bottom: none;
 }
+
 .phrases {
 	margin-top: -170px;
     padding: 50px 0;
@@ -98,8 +105,18 @@ main {
 .last-phrase {
     margin: 0 230px;
 }
+/* aside */
+.container ul li {
+	display: flex;
+	flex-direction: row;
+}
+.promo1 {
 
+}
 /* footer */
+#homefooter {
+
+}
 
 /* Page template A */
 
