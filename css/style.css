@@ -96,10 +96,21 @@ main {
 .header {
 	margin: 0 auto;
 	width: 980px;
+	padding: 50px 0;
+}
+
+.first-phrase {
+	height: 98px;
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+
+.second-phrase {
+	height: 82px;
+	margin-bottom: 30px;
 }
 
 .last-phrase {
-  margin: auto;
   height: 30px;
   overflow: hidden;
 }
@@ -111,28 +122,40 @@ main {
 .last-phrase img:hover {
 	object-position: 0 100%; 
 }
+
 /* aside */
+
 aside {
 	width: 100%;
 }
+
 .container {
 	display: flex;
 	flex-direction: row;
+
 }
 
 .promo {
 	flex: 4;
+	height: 200px;
 }
 
-
-
 /* footer */
+
 #homefooter {
 	margin: 0 auto;
     width: 980px;
 	padding: 1em 0 2.6em;
 	font-size: 0.8em;
+	color: #6e6e6e;
+    line-height: 1.2;
 }
+
+#homefooter a {
+	text-decoration: none;
+	color: #08c;
+}
+
 .wrapper {
 	display: flex;
 	justify-content: space-between;
@@ -141,10 +164,29 @@ aside {
 .right-list {
 	display: flex;
 	justify-content: space-between;
-	width: 50%;
+	width: 51%;
+    padding-top: 1.5em;
+    text-align: right;
 }
 
-.bottom-left,
-.piped {
+.right-list li {
+	margin-left: .6em;
+    padding-left: .6em;
+    border-left: 1px solid #ccc;
+}
+
+.bottom-left, .bottom-left ul {
 	display: flex;
 }
+
+.bottom-left li {
+	margin-left: .6em;
+    padding-left: .6em;
+    border-left: 1px solid #ccc;
+}
+
+.left, .bottom-left{
+	width: 49%;
+    padding-top: 1.5em;
+}
+
