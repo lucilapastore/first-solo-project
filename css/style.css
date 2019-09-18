@@ -96,23 +96,28 @@ main {
 .header {
 	margin: 0 auto;
 	width: 980px;
+	height: 235px;
 	padding: 50px 0;
 }
 
 .first-phrase {
 	height: 98px;
-	margin-bottom: 25px;
+	width: 980px;
 	overflow: hidden;
+	margin-bottom: 25px;
+	margin-top: 70px;
 }
 
 .second-phrase {
 	height: 82px;
+	margin-top: -20px;
 	margin-bottom: 30px;
 }
 
 .last-phrase {
-  height: 30px;
-  overflow: hidden;
+	margin-top: -10px;
+	height: 30px;
+	overflow: hidden;
 }
 
 .last-phrase img {
@@ -132,20 +137,24 @@ aside {
 .container {
 	display: flex;
 	flex-direction: row;
-
+	margin-top: 5px;
 }
 
 .promo {
 	flex: 4;
 	height: 200px;
+	width: 364px;
+	margin: 0 0 0 -29px;
 }
 
 /* footer */
 
 #homefooter {
+	box-sizing: border-box;
+	width: 980px;
+	height: 90px;
 	margin: 0 auto;
-    width: 980px;
-	padding: 1em 0 2.6em;
+	padding: 10.0008px 0 26px;
 	font-size: 0.8em;
 	color: #6e6e6e;
     line-height: 1.2;
