@@ -1,0 +1,264 @@
+/* ----------------- reset ----------------- */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  width: 100%;
+}
+
+ol, 
+ul {
+  list-style: none;
+}
+
+blockquote, 
+q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ----------------- navigation bar ----------------- */
+
+nav ul {
+  margin: 0 auto;
+  position: relative;
+  top: 18px;
+  display: flex;
+  flex-direction: row;
+  width: 930px;
+  height: 36px;
+  text-align: left;
+  border-radius: 4px;
+  background-color: gray;
+}
+
+.container-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  box-shadow: 1px 1px 1.5px 0 #948794;
+  text-align: center;
+}
+
+.nav-item {
+  width: 103px;
+  height: 30px;
+  margin: 3px 0;
+  border-right: #595259 1px solid;
+}
+
+.nav_item:hover {
+  background-color: rgba(51, 51, 51, 0.5);
+}
+
+.nav-item span {
+  font: 12px/18px Helvetica, Arial, Verdana, sans-serif;
+  line-height: 36px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.search-item {
+  width: 106px;
+  height: 30px;
+  padding: 8px 13px;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-item:hover {
+  cursor: text;
+}
+
+form {
+  position: relative;
+  overflow: hidden;
+  height: 20px;
+  width: 75%;
+  border-radius: 18px;
+  box-shadow: 0 -2px 2px 0 #000;
+}
+
+input {
+  padding-right: 5px;
+  flex: 1;
+  height: 100%;
+  width: 75%;
+  font: 10px/12px Helvetica, Arial, Verdana, sans-serif;
+  color: white;
+  background-color: inherit;
+  border: none;
+}
+
+i {
+  padding: 4px 5px;
+  float: left;
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
+
+/* ----------------- main ----------------- */
+
+main {
+  height: 540px;
+  width: 100%;
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+/* ----------------- header ----------------- */
+
+.header {
+  margin: 0 auto;
+  width: 980px;
+  height: 235px;
+  padding: 50px 0;
+}
+
+.first-phrase {
+  height: 98px;
+  width: 980px;
+  overflow: hidden;
+  margin-bottom: 25px;
+  margin-top: 70px;
+}
+
+.second-phrase {
+  height: 82px;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
+.last-phrase {
+  margin-top: -10px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.last-phrase img {
+  object-position: 0 0;
+}
+
+/* ----------------- aside ----------------- */
+
+aside {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+.promo {
+  flex: 4;
+  height: 200px;
+  width: 364px;
+  margin: 0 0 0 -29px;
+}
+
+/* ----------------- footer ----------------- */
+
+#homefooter {
+  box-sizing: border-box;
+  width: 980px;
+  height: 90px;
+  margin: 0 auto;
+  padding: 10.0008px 0 26px;
+  font-size: 0.8em;
+  color: #6e6e6e;
+  line-height: 1.2;
+}
+
+#homefooter a {
+  text-decoration: none;
+  color: #08c;
+}
+
+#homefooter a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-list {
+  display: flex;
+  justify-content: space-between;
+  width: 51%;
+  padding-top: 1.5em;
+  text-align: right;
+}
+
+.right-list li {
+  margin-left: .6em;
+  padding-left: .6em;
+  border-left: 1px solid #ccc;
+}
+
+.bottom-left, .bottom-left ul {
+  display: flex;
+}
+
+.bottom-left li {
+  margin-left: .6em;
+  padding-left: .6em;
+  border-left: 1px solid #ccc;
+}
+
+.left, .bottom-left {
+  width: 49%;
+  padding-top: 1.5em;
+}
