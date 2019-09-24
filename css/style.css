@@ -36,7 +36,7 @@ body {
   line-height: 1;
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   width: 90%;
-  margin: auto; 
+  margin: auto;
 }
 
 ol, 
@@ -80,7 +80,8 @@ nav ul {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient(
+  background: 
+  linear-gradient(
     lightgray,
     darkgray 20%,
     lightgray 50%,
