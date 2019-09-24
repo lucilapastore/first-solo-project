@@ -82,10 +82,10 @@ nav ul {
   align-items: center;
   background:
     linear-gradient(
-       lightgray,
-       darkgray 20%,
-       lightgray 50%,
-       darkgray 80%
+             lightgray,
+             darkgray 20%,
+             lightgray 50%,
+             darkgray 80%
     );
   box-shadow: 1px 1px 1.5px 0 #948794;
   text-align: center;
