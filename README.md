@@ -11,7 +11,7 @@ https://web.archive.org/web/20140301004610/http://www.apple.com/
 The demo page can be found [here](#)
 
 # Built With:
-HTML5
+HTML5 (br)
 CSS3
 
 # Skills used and requirements:
@@ -24,5 +24,5 @@ CSS3
 - MUST: use of linterns, follow CSS best practices, use of CSS Reset
 
 # Author
-Lucila Pastore
+Lucila Pastore (br)
 My repositories are available for you to check [here](https://github.com/lucilapastore)
