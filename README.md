@@ -25,4 +25,4 @@ CSS3
 
 # Author
 Lucila Pastore <br>
-My repositories are available for you to check [here](https://github.com/lucilapastore)
+My repositories are available for you to check [here](https://github.com/lucilapastore).
