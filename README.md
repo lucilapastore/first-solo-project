@@ -8,7 +8,7 @@ In this task, I used my newly-aquired knowledge of gradients and backgrounds. Th
 https://web.archive.org/web/20140301004610/http://www.apple.com/
 
 # Live Version:
-The demo page can be found [here](#)
+The demo page can be found [here](https://lucilapastore.github.io/first-solo-project/).
 
 # Built With:
 HTML5 <br>
