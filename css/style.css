@@ -35,7 +35,8 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  width: 100%;
+  width: 90%;
+  margin: auto;
 }
 
 ol, 
@@ -79,7 +80,7 @@ nav ul {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  background: linear-gradient (lightgray, darkgray 20%, lightgray 50%, darkgray 80%);
   box-shadow: 1px 1px 1.5px 0 #948794;
   text-align: center;
 }
@@ -118,7 +119,6 @@ nav ul {
 
 form {
   position: relative;
-  overflow: hidden;
   height: 20px;
   width: 75%;
   border-radius: 18px;
@@ -126,8 +126,9 @@ form {
 }
 
 input {
-  padding-right: 5px;
-  flex: 1;
+  position: relative;
+  bottom: 22px;
+  padding-left: 25px;
   height: 100%;
   width: 75%;
   font: 10px/12px Helvetica, Arial, Verdana, sans-serif;
@@ -197,24 +198,29 @@ aside {
 .container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin-top: 5px;
+  width: 100%;
 }
 
 .promo {
-  flex: 4;
-  height: 200px;
-  width: 364px;
-  margin: 0 0 0 -29px;
+  width: 25%;
+  object-fit: cover;
+}
+
+.promo img {
+  height: 100%;
+  width: 100%;
 }
 
 /* ----------------- footer ----------------- */
 
 #homefooter {
   box-sizing: border-box;
-  width: 980px;
+  width: 80%;
   height: 90px;
   margin: 0 auto;
-  padding: 10.0008px 0 26px;
+  padding: 10px 0 26px;
   font-size: 0.8em;
   color: #6e6e6e;
   line-height: 1.2;
